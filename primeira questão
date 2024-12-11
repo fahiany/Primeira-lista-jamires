@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    float altura=1.75;
+    float peso= 68.5;
+    
+    
+    printf("Altura: %.2f metros e peso: %.2f", altura, peso);
+
+    return 0;
