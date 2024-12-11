@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    float num1=5.0, num2=2.0, resultado;
+    
+    resultado=num1/num2;
+ 
+    printf("o resultado da divisão é:%.2f", resultado);
+
+    return 0;
+}
