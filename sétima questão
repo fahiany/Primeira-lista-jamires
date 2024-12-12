@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    float preco, quantidade, total;
+    
+    printf ("insira o preço do produto desejado:\n");
+    scanf ("%f", &preco);
+    
+     printf ("insira a quantidade que você deseja comprar:\n");
+    scanf ("%f", &quantidade);
+    
+    
+    
+   total=preco*quantidade;
+    
+    printf("O valor total a ser pago na compra é:%.2f", total);
+
+    return 0;
+}
