@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    float nota1, nota2, nota3, media;
+    
+    printf ("insira a primeira nota:\n");
+    scanf ("%f", &nota1);
+    
+     printf ("insira a segunda nota:\n");
+    scanf ("%f", &nota2);
+    
+     printf ("insira a terceira nota:\n");
+    scanf ("%f", &nota3);
+    
+    
+   media=((nota1+nota2+nota3)/3);
+    
+    printf("O resultado da sua média final é:%.2f", media);
+
+    return 0;
+}
