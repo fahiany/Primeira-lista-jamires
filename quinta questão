@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    float metros, resultado;
+    
+    printf ("insira o valor em metros:\n");
+    scanf ("%f", &metros);
+    
+    
+   resultado=metros*100;
+    
+    printf("O resultado da conversão de metros para centimetros é:%.2f", resultado);
+
+    return 0;
+}
